@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+.banner {
+  background-color: #11233b;
+  color: white;
+}
+
+body {
+  background-color: #f0f0f0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.navbar-blue {
+  background-color: #20416c;
+  padding: 5px;
+}
+
+footer {
+  clear: both;
+  background-color: #20416c;
+  color: white;
+  padding: 5px 20px;
+}
+
+.rood {
+    background-color: red;
+}
+
+.geel {
+    background-color: yellow;
+}
+
+.paars {
+    background-color: purple;
+    color: yellow;
+}
+
+.groen {
+    background-color: green;
+    color: antiquewhite;
+}
+
+.blauw {
+    background-color: blue;
+    color: beige;
+}
+

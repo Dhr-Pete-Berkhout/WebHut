@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>WebHut</title>
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+      <!-- jQuery library -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+      <!-- Latest compiled JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="webhut.css">
+    </head>
+    
+  <body>
+    <header class="banner container-fluid">
+        <center>
+            <img class="img-responsive" src="webhut.jpg" alt="Webhut">
+        </center>
+    </header>
+      
+    <nav class="navbar navbar-inverse navbar-blue">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-    target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> 
+                </button>
+                <a class="navbar-brand" href="#">WebHut</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Product
+                                <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Aap</a></li>
+                        <li><a href="#">Noot</a></li>
+                        <li><a href="#">Mies</a></li>
+                    </ul>
+                    </li>
+
+                    <form class="navbar-form navbar-left" action="/action_page.php">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                            <div class="input-group-btn">
+                                <button class="btn btn-default" type="submit">
+                                    <i class="glyphicon glyphicon-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><span class="glyphicon glyphicon-user">     </span> Registreer</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    </ul>
+                </ul>
+    
+             </div>
+         </div>
+      </nav>
+
+      <div class="container-fluid row">
+          <section class="col-md-4 col-sm-6 col-xs-12 rood">
+            <h2>Local News</h2>
+            <article>
+                <header>
+                    <h3>Fire fighters rescue man from building</h3>
+                    <p>(author, date)</p>
+                </header>
+                <p>This is the story text. This is the story text.</p>
+                <p>This is the story text. This is the story text.</p>
+              </article>
+
+              <article>
+                  <header>
+                      <h3>New Library to be built</h3>
+                      <p>(author, date)</p>
+                  </header>
+                  <p>This is the story text. This is the story text.</p>
+                  <p>This is the story text. This is the story text.</p>
+              </article>
+          </section>
+
+          <section class="col-md-4 col-sm-6 col-xs-12 geel">
+              <h2>National News</h2>
+              <article>
+                  <header>
+                      <h3>Snow storm is making travel difficult</h3>
+                      <p>(author, date)</p>
+                  </header>
+                  <p>This is the story text. This is the story text.</p>
+                  <p>This is the story text. This is the story text.</p>
+              </article>
+
+              <article>
+                  <header>
+                      <h3>Thousands are without power</h3>
+                      <p>(author, date)</p>
+                  </header>
+                  <p>This is the story text. This is the story text.</p>
+                  <p>This is the story text. This is the story text.</p>
+              </article>
+          </section>
+
+          <section class="col-md-4 hidden-sm hidden-xs paars">
+              <h2>Be a news reporter</h2>
+              <p>If you see news happening - Send us a Text.</p>
+          </section>
+      </div>
+    <br>
+      
+    <div class="container-fluid row">
+        <article class="col-md-6 col-sm-12 col-xs-12 groen">
+            <header>
+                <h3>LOTR: de mythe</h3>
+                <p>(Berkhout, 6 apr 2018)</p>
+            </header>
+            <p>LOTR is de afkorting voor de Lord Of The Rings filmserie.
+                Deze serie van drie films is heel bekend geworden. Vele duizenden mensen zijn fan.
+            </p>
+            <p>De serie films bestaat uit:
+            </p>
+            <ul>
+                <li>Deel 1: Fellowship of the ring</li>
+                <li>Deel 2: The two towers</li>
+                <li>Deel 3: Return of the king</li>
+            </ul>
+        </article>
+      
+        <article class="col-md-6 col-sm-12 col-xs-12 blauw">
+            <header>
+                <h3>Onzin artikel</h3>
+                <p>(Student, gisteren)</p>
+            </header>
+            <p>Lekkere jonko's smoken kan helemaal geen kwaat.</p>
+            <p>Het is allang bewezen dat blowen niets te maken heeft met "blowing your mind". </p>
+        </article>
+      </div>
+      <br>
+
+      <footer>
+          <p>Footer Information</p>
+      </footer>
+
+  </body>
+</html>
